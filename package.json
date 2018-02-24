@@ -1,0 +1,24 @@
+{
+  "name": "text-flip",
+  "version": "1.0.0",
+  "description": "well tested module that flips text upside down",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha test.js"
+  },
+  "keywords": [
+    "flip",
+    "text",
+    "tested"
+  ],
+  "author": "Mustafa Musabeyli <musabeyli@wisc.edu>",
+  "license": "ISC",
+  "dependencies": {
+    "flip-text": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.1",
+    "nyc": "^11.4.1"
+  }
+}
